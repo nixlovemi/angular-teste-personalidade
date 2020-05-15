@@ -1,1 +1,126 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --white: #afafaf;
+    --red: #e31b23;
+    --bodyColor: #292a2b;
+    --borderFormEls: hsl(0, 0%, 10%);
+    --bgFormEls: hsl(0, 0%, 14%);
+    --bgFormElsFocus: hsl(0, 7%, 20%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a {
+    color: inherit;
+}
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 100%; 
+}
+button,
+label {
+    cursor: pointer;
+}
+select {
+    appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+select:-moz-focusring {
+    color: transparent !important;
+    text-shadow: 0 0 0 var(--white);
+}
+textarea {
+    resize: none;
+}
+ul {
+    list-style: none;
+}
+html, body {
+    height: calc(100% - 9px); /* removed 9px to hide scrollbar - don't know why */
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 18px/1.5 "Open Sans", sans-serif;
+    background: var(--bodyColor);
+    color: var(--white);
+    margin: 0;
+}
+select,
+input,
+textarea,
+button {
+    width: 100%;
+    line-height: 1.5;
+    padding: 15px 10px;
+    border: 1px solid var(--borderFormEls);
+    color: var(--white);
+    background: var(--bgFormEls);
+    transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25), transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+textarea {
+    height: 170px;
+}
+select:focus,
+input:focus,
+textarea:focus,
+button:enabled:hover,
+button:focus,
+input[type="checkbox"]:focus + label {
+    background: var(--bgFormElsFocus);
+}
+select:focus,
+input:focus,
+textarea:focus {
+    transform: scale(1.02);
+}
+.mid-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holder {
+    width: 800px;
+}
+.section-title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+}
+#flag-list {
+    width: 100%;
+}
+#flag-list li {
+    width: 48%;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 2%;
+}
+#flag-list li img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+#flag-list li:last-child {
+    margin-right: 0;
+}
+#flag-list img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
