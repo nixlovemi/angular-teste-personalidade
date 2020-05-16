@@ -1,3 +1,533 @@
 {
-
+    "choose_language"         : "Escolha uma língua",
+    "personality_test"        : "Teste de Personalidade",
+    "please_answer_questions" : "Por favor, responda a algumas perguntas para analisarmos sua personalidade",
+    "start_test"              : "Iniciar Teste",
+    "test_questions"          : {
+        "0" : {
+            "question" : "Eu sou ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Idealista, criativo e visionário"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Divertido, espiritual e benéfico"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Confiável, meticuloso e previsível"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Focado, determinado e persistente"
+                }
+            }
+        },
+        "1" : {
+            "question" : "Eu gosto de ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Ser piloto"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Conversar com passageiros"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Planejar a viagem"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Explorar novas rotas"
+                }
+            }
+        },
+        "2" : {
+            "question" : "Se você quiser se dar bem comigo ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Me dê liberdade"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Me deixe saber sua expectativa"
+                },
+                "2" : {
+                    "type" : "A",
+                    "text" : "Lidere, siga ou saia do caminho"
+                },
+                "3" : {
+                    "type" : "C",
+                    "text" : "Seja amigável, carinhoso e compreensivo"
+                }
+            }
+        },
+        "3" : {
+            "question" : "Para conseguir obter bons resultados é preciso ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Ter incertezas"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Controlar o essencial"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "Diversão e celebração"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Planejar e obter resultados"
+                }
+            }
+        },
+        "4" : {
+            "question" : "Eu me divirto quando ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Estou me exercitando"
+                },
+                "1" : {
+                    "type" : "I",
+                    "text" : "Tenho novidades"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "Estou com os outros"
+                },
+                "3" : {
+                    "type" : "O",
+                    "text" : "Determino as regras"
+                }
+            }
+        },
+        "5" : {
+            "question" : "Eu penso que ...",
+            "options"  : {
+                "0" : {
+                    "type" : "C",
+                    "text" : "Unidos venceremos, divididos perderemos"
+                },
+                "1" : {
+                    "type" : "A",
+                    "text" : "O ataque é a melhor defesa"
+                },
+                "2" : {
+                    "type" : "I",
+                    "text" : "É bom ser manso, mas andar com um porrete"
+                },
+                "3" : {
+                    "type" : "O",
+                    "text" : "Um homem prevenido vale por dois"
+                }
+            }
+        },
+        "6" : {
+            "question" : "Minha preocupação é ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Gerar a Ideia global"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Fazer com que as pessoas gostem"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Fazer com que funcione"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Fazer com que aconteça"
+                }
+            }
+        },
+        "7" : {
+            "question" : "Eu prefiro ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Perguntas e respostas"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Ter todos os detalhes"
+                },
+                "2" : {
+                    "type" : "A",
+                    "text" : "Vantagem a meu favor"
+                },
+                "3" : {
+                    "type" : "C",
+                    "text" : "Que todos tenham a chance de ser ouvido"
+                }
+            }
+        },
+        "8" : {
+            "question" : "Eu gosto de ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "fazer progresso"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Construir memórias"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Fazer sentido"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Tornar as pessoas confortáveis"
+                }
+            }
+        },
+        "9" : {
+            "question" : "Eu gosto de chegar ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Na frente"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Junto"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Na hora"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Em outro lugar"
+                }
+            }
+        },
+        "10" : {
+            "question" : "Um ótimo dia pra mim é quando ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Consigo fazer muitas coisas"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Me divirto com meus amigos"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Tudo segue conforme planejado"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Desfruto de coisas novas e estimulantes"
+                }
+            }
+        },
+        "11" : {
+            "question" : "EU vejo a morte como ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Uma grande aventura misteriosa"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Oportunidade para rever os falecidos"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Um modo de receber recompensas"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Algo que sempre chega muito cedo"
+                }
+            }
+        },
+        "12" : {
+            "question" : "Minha filosofia é ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Há ganhadores e perdedores, e eu acredito ser um ganhador"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Para eu ganhar, ninguém precisa perder"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Para ganhar é preciso seguir as regras"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Para ganhar, é necessário invertar novas regras"
+                }
+            }
+        },
+        "13" : {
+            "question" : "Eu sempre gostei de ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Explorar"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Evitar surpresas"
+                },
+                "2" : {
+                    "type" : "A",
+                    "text" : "Focalizar a meta"
+                },
+                "3" : {
+                    "type" : "C",
+                    "text" : "Realizar uma abordagem natural"
+                }
+            }
+        },
+        "14" : {
+            "question" : "Eu gosto de mudanças se ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Me der uma vantagem competitiva"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "For divertido e puder ser compartilhado"
+                },
+                "2" : {
+                    "type" : "I",
+                    "text" : "Me der mas liberdade e variedade"
+                },
+                "3" : {
+                    "type" : "O",
+                    "text" : "Melhorar ou me der mais controle"
+                }
+            }
+        },
+        "15" : {
+            "question" : "Não existe nada errado em ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Se colocar na frente"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Colocar os outros na frente"
+                },
+                "2" : {
+                    "type" : "I",
+                    "text" : "Mudar de ideia"
+                },
+                "3" : {
+                    "type" : "O",
+                    "text" : "Ser consistente"
+                }
+            }
+        },
+        "16" : {
+            "question" : "Eu gostaria de buscar conselhos de ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Pessoas bem sucedidas"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Anciões e conselheiros"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Autoridades no assunto"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Lugares, os mais estranhos"
+                }
+            }
+        },
+        "17" : {
+            "question" : "Meu lema é ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Fazer o que precisa ser feito"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Fazer bem feito"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "Fazer junto com o grupo"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Simplesmente fazer"
+                }
+            }
+        },
+        "18" : {
+            "question" : "Eu gosto de ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Complexidade, mesmo se confuso"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Ordem e sistematização"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "Calor humano e animação"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Coisas claras e simples"
+                }
+            }
+        },
+        "19" : {
+            "question" : "Tempo para mim é ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Algo que detesto desperdiçar"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "Um grande ciclo"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Uma flecha que leva ao inevitável"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Irrelevante"
+                }
+            }
+        },
+        "20" : {
+            "question" : "Se eu fosse bilionário ...",
+            "options"  : {
+                "0" : {
+                    "type" : "C",
+                    "text" : "Faria doações para muitas entidades"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "Criaria uma poupança avantajada"
+                },
+                "2" : {
+                    "type" : "I",
+                    "text" : "Faria o que desse na cabeça"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Exibiria bastante com algumas pessoas"
+                }
+            }
+        },
+        "21" : {
+            "question" : "Eu acredito que ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "O destino é mais importante que a jornada"
+                },
+                "1" : {
+                    "type" : "C",
+                    "text" : "A jornada é mais importante que o destino"
+                },
+                "2" : {
+                    "type" : "O",
+                    "text" : "Um centavo economizado é um centavo ganho"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Bastam um navio e uma estrela pra navegar"
+                }
+            }
+        },
+        "22" : {
+            "question" : "Eu acredito também que ...",
+            "options"  : {
+                "0" : {
+                    "type" : "A",
+                    "text" : "Aquele que hesita está perdido"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "De grão em grão a galinha enche o papo"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "O que vai, volta"
+                },
+                "3" : {
+                    "type" : "I",
+                    "text" : "Um sorriso ou uma careta é o mesmo para quem é cego"
+                }
+            }
+        },
+        "23" : {
+            "question" : "Eu acredito ainda que ...",
+            "options"  : {
+                "0" : {
+                    "type" : "O",
+                    "text" : "É melhor prudência do que arrependimento"
+                },
+                "1" : {
+                    "type" : "I",
+                    "text" : "A autoridade deve ser desafiada"
+                },
+                "2" : {
+                    "type" : "A",
+                    "text" : "ganhar é fundamental"
+                },
+                "3" : {
+                    "type" : "C",
+                    "text" : "O coletivo é mais importante do que o individual"
+                }
+            }
+        },
+        "24" : {
+            "question" : "Eu penso que ...",
+            "options"  : {
+                "0" : {
+                    "type" : "I",
+                    "text" : "Não é fácil ficar encurralado"
+                },
+                "1" : {
+                    "type" : "O",
+                    "text" : "É preferível olhar, antes de pular"
+                },
+                "2" : {
+                    "type" : "C",
+                    "text" : "Duas cabeças pensem melhor do que uma"
+                },
+                "3" : {
+                    "type" : "A",
+                    "text" : "Se você não tem condições de competir, não compita"
+                }
+            }
+        }
+    }
 }

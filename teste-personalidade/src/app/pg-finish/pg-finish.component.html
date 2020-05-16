@@ -1,0 +1,17 @@
+<div class="mid-container">
+    <div class="holder">
+        <h1 class="section-title">Resultado:</h1>
+
+        <div id="chart">
+            <apx-chart
+                [series]="chartOptions.series"
+                [chart]="chartOptions.chart"
+                [xaxis]="chartOptions.xaxis"
+                [yaxis]="chartOptions.yaxis"
+                [title]="chartOptions.title"
+            ></apx-chart>
+        </div>
+
+        <button (click)="restart()" class="button-medium">Reiniciar Teste</button>
+    </div>
+</div>

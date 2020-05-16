@@ -1,0 +1,6 @@
+.button-holder {
+    display: flex;
+}
+.button-holder div {
+    width: 50%;
+}

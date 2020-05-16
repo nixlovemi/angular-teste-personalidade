@@ -1,18 +1,5 @@
-<div class="mid-container">
-    <div class="holder">
-        <h1 class="section-title">Choose a Language:</h1>
-        <ul id="flag-list">
-            <li>
-                <a (click)="goToStart()" href="javascript:;">
-                    <img src="assets/usa-flag.jpg" />
-                </a>
-            </li>
-            <li>
-                <a (click)="goToStart()" href="javascript:;">
-                    <img src="assets/brazil-flag.jpg" />
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-<router-outlet></router-outlet>
+<!--<router-outlet></router-outlet>-->
+
+<main [@fadeAnimation]="getRouterOutletState(o)">
+    <router-outlet #o="outlet"></router-outlet>
+</main>

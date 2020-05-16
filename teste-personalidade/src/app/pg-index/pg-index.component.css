@@ -1,0 +1,7 @@
+img.disabled {
+    opacity: 0.1;
+}
+img.disabled:hover {
+    transform: none !important;
+    opacity: 0.1 !important;
+}

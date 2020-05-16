@@ -3,6 +3,7 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "allowJs": true,
+    "allowSyntheticDefaultImports":true,
 
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

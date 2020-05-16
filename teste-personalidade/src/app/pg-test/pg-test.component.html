@@ -1,0 +1,25 @@
+<div class="mid-container">
+    <div class="holder">
+        <h1 class="section-title">{{ question }}</h1>
+
+        <ul class="list-group mb-normal">
+            <li
+                *ngFor="let option of arrOptions; index as i;"
+                [className]="i == idxSelected ? 'item-selected list-group-item list-group-dark' : 'list-group-item list-group-dark'"
+                (click)="selectAnswer(i)"
+            >
+                <!-- @todo find a way to not repeat the classes on className -->
+                <a href="javascript:;">{{ option }}</a>
+            </li>
+        </ul>
+
+        <div class="button-holder">
+            <div>
+                <button (click)="back()">&lt; Voltar</button>
+            </div>
+            <div>
+                <button (click)="foward()" [disabled]="btnDisabled">Avançar &gt;</button>
+            </div>
+        </div>
+    </div>
+</div>

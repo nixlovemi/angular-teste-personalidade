@@ -1,3 +1,6 @@
 {
-    
+    "choose_language"         : "Choose a Language",
+    "personality_test"        : "Personality Test",
+    "please_answer_questions" : "Please answer a few questions so we can check your personality",
+    "start_test"              : "Start Test"
 }
